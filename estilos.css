@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+/*VARIABLES*/
+:root{
+    --font-family: "Roboto", sans-serif; 
+    --normal-font:400;
+    --bold-font: 700; 
+    --bolder-font: 900; 
+    --bg-color: #29537d; 
+    --bg-color-second: #eaf8fb;
+    --primary-color: #d3d6ed; 
+    --secondary-color: #a2cab4; 
+    --primary-shadow: #8b8eaf;
+    --secondary-shadow: #a17a69; 
+    --bottom-margin: 0.5rem; 
+    --bottom-margin-2: 1rem;
+    --line-height: 1.7rem; 
+    --transition: 0.3s; 
+}
+
+/*NAVBAR*/
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--bg-color);
+    box-shadow:space-between;
+    padding: 1rem;
+    background-color: #08291c;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+}
+
+nav h1{
+    color: #ffffff;
+}
+
+nav a{ 
+    color: #ffffff;
+}
+
+nav a:hover{
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+nav ul {
+    display:flex;
+    gap: 1.9rem;
+}
+
+nav ul li{
+    font-weight: var(--bold-font);
+}
+
+/*ESCONDER BOTÓN DE HAMBURGUESA*/
+.burger-menu{
+    color: var(--primary-color);
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor:pointer;
+    display:none;
+}
+/*FIN DE NAVBAR, shiiiuuuuuu*/
+
+body{
+    font-family: var(--font-family);
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(20, 95, 70);
+}
+
+header{
+    background-image: url(image/header2.png);
+    width: 100%;
+    height: 300px;
+    color: #ffffff;
+    margin: 0px;
+    padding: 1px;
+    text-align: center;
+    font-family: "Alegreya";
+    font-weight:100px;
+    font-style: normal;   
+
+}
+
+
+main {
+    margin:30px;
+    padding: 15px;
+    font-family: "Alegreya";
+    font-weight:100px;
+    font-style: normal;
+    p {text-align: left;}
+    background-color: rgb(236, 252, 237);
+}
+main .img1{
+    width: 200px;
+    height: 300px;
+}
+
+main .img7{
+    height: 300px; ;
+    width: 600px; ;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+header h2 {
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li { 
+    display: inline-table;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+footer {
+    color: #ffffff;
+}
+
+.paopao{
+    color: #ffffff;
+}
+
+/*{}*/
+/*BIOGRAFÍA DE BILLIE EILISH*/
+.bio{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 95rem;
+    margin: auto;
+}
+
+.bio-img{
+    height: 19rem;
+    width: 15rem;
+}
+
+.biog{
+    width: 50rem;
+    padding: 0.625rem;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    border-radius: 8px;
+    background-color:#ffffff
+}
+
+.biog-title{
+    text-align: center;
+}
+
+/*INICIOS EN LA MÚSICA*/
+/*{}*/
+
+.inicios{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 95rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+.ini{
+    width: 40rem;
+    padding: 0.625rem;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    background-color: rgb(247, 244, 244);
+}
+
+.inicios-title{
+    text-align: center;
+}
+
+/*PRIMER ALBUM*/
+/*{}*/
+.album1{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 95rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+.album1-div{
+    width: 40rem;
+    padding: 0.625rem;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    background-color: rgb(251, 250, 249);
+}
+
+.album1-title{
+    text-align: center;
+}
+
+main .img3{
+    height: 350px;
+    width: 350px;
+}
+
+.album1-div2{
+    width: 40rem;
+    padding: 0.625rem;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    background-color: rgb(250, 249, 247);
+}
+
+.album1-h4{
+    text-align: center;
+}
+
+.album1-li{
+    padding: 0 3rem ;
+}
+
+/*SEGUNDO ALBUM*/
+
+.album2{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 95rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+.album2-div{
+    width: 40rem;
+    padding: 0.625rem;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    background-color: rgb(246, 246, 246);
+}
+
+.album2-title{
+    text-align: center;
+}
+
+.album2-div2{
+    width: 40rem;
+    padding: 0.625rem;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    background-color: rgb(250, 245, 245);
+}
+
+.album2-h3{
+    text-align: center;
+}
+
+
+.album2-h4{
+    text-align: center;
+}
+
+.album2-li{
+    padding: 0 3rem ;
+}
+
+main .img4{
+    height: 400px; ;
+    width: 300px; ;
+}
+
+/*TERCER ALBUM*/
+
+.album3{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 95rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+.album3-div{
+    width: 100%;
+    padding: 0.625rem;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    background-color: rgb(246, 246, 246);
+}
+
+.album3-div2{
+    width: 100%;
+    padding: 0.625rem;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    background-color: rgb(250, 245, 245);
+}
+
+.album3-h3{
+    text-align: center;
+}
+
+
+.album3-h4{
+    text-align: center;
+}
+
+.album3-li{
+    padding: 0 3rem ;
+}
+
+main .img5{
+    height: 300px; ;
+    width: 400px; ;
+}
+
+/*Cuarto album*/
+
+
+.album4{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 95rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+.album4-div{
+    width: 100%;
+    padding: 0.625rem;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    background-color: rgb(246, 246, 246);
+}
+
+.album4-div2{
+    width: 100%;
+    padding: 0.625rem;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    background-color: rgb(250, 245, 245);
+}
+
+.album4-h3{
+    text-align: center;
+}
+
+
+.album4-h4{
+    text-align: center;
+}
+
+.album4-li{
+    padding: 0 3rem ;
+}
+
+main .img6{
+    height: 300px; 
+    width: 350px; 
+}
+
+/*DATOS CURIOSOS*/
+
+.datoscuriosos{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 95rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+.datos{
+    width: 40rem;
+    padding: 0.625rem;
+    box-shadow:  0px 2px 15px 2px var(--primary-shadow);
+    background-color: rgb(250, 245, 245);
+}
+
+.datos-h3{
+    text-align: center;
+}
+
+.datos-li{
+    padding: 0.5rem;
+}
+
+/*Redes sociales y video recomendado*/
+
+.redessociales{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 95rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+.sociales{
+    width: 550px;
+    padding: 0.625rem;
+    box-shadow:  0px 2px 15px 2px var(--primary-shadow);
+    background-color: rgb(250, 245, 245);
+}
+
+.redes-h3{
+text-align: center;
+}
+
+.socicon{
+    width: 5rem;
+    height: 5rem;
+}
+
+.video-h1{
+    text-align: center;
+}
+
